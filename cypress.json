@@ -1,0 +1,17 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "step_definitions": "cypress/integration/**/step_definitions/",
+    "screenshotsFolder": "cypress/screenshots",
+    "supportFile": "cypress/support",
+    "videosFolder": "cypress/videos",
+    "viewportWidth": 1080,
+    "viewportHeight": 780,
+  
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+}
